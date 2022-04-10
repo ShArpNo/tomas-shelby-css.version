@@ -1,0 +1,64 @@
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 720px;
+    margin: auto;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: rgb(58, 61, 228);
+
+}
+
+.yt {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-image: url("cringe.jpg");
+    background-position: center;
+    border-radius: 20px;
+    text-align: center;
+    border-color: rgb(255, 0, 0);
+    border-style: dashed;
+    height: 250px;
+}
+.yt a {
+    background-color: #fff;
+    padding: 5px;
+
+}
+.yt h1 {
+    padding-bottom: 25px;
+    color: red;
+    margin: 30px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.yt .btn {
+    background-color: black;
+    font-family: inherit;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+
+.yt .btn:hover {
+    opacity: 0.8;
+}
+

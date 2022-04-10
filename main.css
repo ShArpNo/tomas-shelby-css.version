@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+.container {
+    margin: auto;
+    max-width: 720px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.tomas {
+    
+}
+
+.image {
+    background-image: url("bgphoto.jpg");
+    background-size: 100%;
+    background-repeat: round;
+    margin-top: 0px;
+    padding-top: 20px;
+
+}
+
+.btn {
+    background-color: black;
+    font-family: inherit;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin-bottom: 100%;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/* Position
+
+.position {
+    position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: lightcoral;
+}*/
+
+.soundtrack {
+}
+
+@media (max-width: 700px) {
+    .container {
+        text-align: left;
+        display: block;
+    }
+
+}
